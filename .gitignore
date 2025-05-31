@@ -5,9 +5,6 @@
 # Node modules (if ever used)
 node_modules/
 
-# Compiled CSS (keep only SCSS in repo, ignore compiled CSS if desired)
-styles/main.css
-
 # OS files
 .DS_Store
 

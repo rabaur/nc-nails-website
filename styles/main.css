@@ -1,0 +1,123 @@
+body {
+  background: linear-gradient(to bottom, #fff 0%, #f9e7ea 100%);
+  color: #111;
+  font-family: "Karla", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0; }
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem; }
+  header .logo-container {
+    position: relative;
+    display: inline-block; }
+    header .logo-container .logo-bg {
+      width: 180px;
+      height: auto;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+      pointer-events: none; }
+    header .logo-container .logo-text {
+      position: relative;
+      z-index: 1;
+      font-size: 2.2rem; }
+      header .logo-container .logo-text .cormorant {
+        font-family: "Cormorant", serif;
+        font-weight: 700;
+        font-size: 2.5rem; }
+      header .logo-container .logo-text .cherish {
+        font-family: "Cherish", cursive;
+        font-size: 2.5rem;
+        margin: 0 0.1em; }
+      header .logo-container .logo-text .subtitle {
+        display: block;
+        font-family: "Cormorant", serif;
+        font-size: 1.1rem;
+        letter-spacing: 0.1em;
+        margin-top: 0.2em; }
+  header nav {
+    margin-top: 2.5rem; }
+    header nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem; }
+      header nav ul li a, header nav ul li button {
+        font-family: "Karla", sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        color: #111;
+        background: none;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        transition: color 0.2s; }
+        header nav ul li a:hover, header nav ul li button:hover {
+          color: #eebfc7; }
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem; }
+  main section {
+    margin-bottom: 2.5rem; }
+    main section h2 {
+      font-family: "Cormorant", serif;
+      font-size: 1.5rem;
+      margin-bottom: 1rem; }
+    main section p {
+      font-size: 1.1rem;
+      line-height: 1.6; }
+    main section .about-img {
+      display: block;
+      margin: 2rem auto 0 auto;
+      max-width: 100%;
+      border-radius: 1.2rem;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.07); }
+
+#prices h3 {
+  font-weight: 400; }
+#prices .price-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background: #fff; }
+  #prices .price-table th, #prices .price-table td {
+    border: 1px solid transparent;
+    padding: 0.5em 0.7em;
+    text-align: left; }
+  #prices .price-table th {
+    background: #f8e6ea;
+    font-family: "Cormorant", serif; }
+
+footer {
+  background: #fff;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #888;
+  padding: 1.5rem 0 0.5rem 0; }
+
+@media (max-width: 600px) {
+  header .logo-container .logo-bg {
+    width: 120px; }
+
+  main {
+    padding: 1rem 0.5rem; }
+
+  nav ul {
+    gap: 1rem; } }
+a[href^="tel"] {
+  color: #e397a4;
+  text-decoration: none;
+  font-weight: 700; }
+
+a[href^="tel"]:hover {
+  text-decoration: underline;
+  color: #d96e80; }
+
+/*# sourceMappingURL=main.css.map */
