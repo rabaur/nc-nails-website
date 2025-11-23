@@ -2,27 +2,27 @@ const pricesDE = [
   {
     section: 'NEUMODELLAGE (Mit Pulver (Acryl)-System)',
     rows: [
-      ['Natur', '30€', '35€'],
-      ['Farbe', '35€', '38€'],
-      ['French', '35€', '38€'],
-      ['Babyboomer', '35€', '38€'],
+      ['Natur oder Pulver (Acryl)', '33€', '38€'],
+      ['Pink & White System', '37€', '43€'],
+      ['Shellac oder Pulver', '37€', '43€'],
+      ['Babyboomer', '37€', '43€'],
     ],
     header: ['','Auffüllen','Neu']
   },
   {
     section: 'MANIKÜRE (inkl. Massage)',
     rows: [
-      ['Klarlack', '15€'],
-      ['Farbe', '18€'],
-      ['Mit Shellac', '29€'],
+      ['Klarlack', '18€'],
+      ['Farbe', '20€'],
+      ['Mit Shellac', '32€'],
     ],
     header: ['', 'Preis']
   },
   {
     section: 'PEDIKÜRE (inkl. Massage & Peeling & Meersalz)',
     rows: [
-      ['Klarlack', '30€'],
-      ['Farbe', '32€'],
+      ['Klarlack', '33€'],
+      ['Farbe', '35€'],
       ['Mit Shellac', '45€'],
     ],
     header: ['', 'Preis']
@@ -30,9 +30,9 @@ const pricesDE = [
   {
     section: 'ZEHENMODELLAGE',
     rows: [
-      ['Mit French', '30€'],
-      ['Mit Farbe', '30€'],
-      ['Kürzen, Feilen & Lackieren', '12€'],
+      ['Verlängerung oder French', '45€'],
+      ['Mit Shellac oder French', '40€'],
+      ['Kurzfeile & Lackieren', '12€'],
     ],
     header: ['', 'Preis']
   },
@@ -53,27 +53,27 @@ const pricesEN = [
   {
     section: 'NEW MODELING (With Powder (Acrylic) System)',
     rows: [
-      ['Natural', '30€', '35€'],
-      ['Color', '35€', '38€'],
-      ['French', '35€', '38€'],
-      ['Babyboomer', '35€', '38€'],
+      ['Natural or Powder (Acrylic)', '33€', '38€'],
+      ['Pink & White System', '37€', '43€'],
+      ['Shellac or Powder', '37€', '43€'],
+      ['Babyboomer', '37€', '43€'],
     ],
     header: ['', 'Refill', 'New']
   },
   {
     section: 'MANICURE (incl. Massage)',
     rows: [
-      ['Clear Polish', '15€'],
-      ['Color', '18€'],
-      ['With Shellac', '29€'],
+      ['Clear Polish', '18€'],
+      ['French or Color', '20€'],
+      ['With Shellac', '32€'],
     ],
     header: ['', 'Price']
   },
   {
     section: 'PEDICURE (incl. Massage & Peeling & Sea Salt)',
     rows: [
-      ['Clear Polish', '30€'],
-      ['Color', '32€'],
+      ['Clear Polish', '33€'],
+      ['French or Color', '35€'],
       ['With Shellac', '45€'],
     ],
     header: ['', 'Price']
@@ -81,8 +81,8 @@ const pricesEN = [
   {
     section: 'TOE MODELING',
     rows: [
-      ['With French', '30€'],
-      ['With Color', '30€'],
+      ['Extension or French', '45€'],
+      ['With Shellac or French', '40€'],
       ['Shorten, File & Polish', '12€'],
     ],
     header: ['', 'Price']
